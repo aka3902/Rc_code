@@ -1,0 +1,337 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+%\usepackage[a4paper, left=0.75in, right=0.55in, top=0.5in, bottom=0.5in]{geometry}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{xcolor} % to enable color definition
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref} % setting link color
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\setlength{\oddsidemargin}{-0.55in} % Left margin
+\setlength{\evensidemargin}{-0.55in} % Right margin (matching the left margin)
+\setlength{\textwidth}{7.5in} % Increase text width to balance both margins
+\setlength{\topmargin}{-0.70in} % Top margin
+\setlength{\textheight}{10in} % Text height for vertical content
+
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape  Arpit Kumar} \\ \vspace{5pt}
+     \vspace{5pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-9511087969 \href{mailto:arpitk2453@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{arpitk2453@gmail.com}   }         
+       \href{https://www.linkedin.com/in/arpit2453/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin}    }  
+    \href{https://github.com/aka3902}{\raisebox{-0.2\height}\faGithub\ \underline{github}}
+    \vspace{3pt}
+\end{center}
+ \vspace{-10pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {GL Bajaj Institute of Technology and Management}{Nov 2021 -- Jun 2025}
+      {Bachelor of Technolgy in Computer Science and Engineering}{CGPA: 7.68}
+       \vspace{-5pt}
+      \resumeSubHeadingListStart
+    \resumeSubheading
+      {M.P Public School }{Apr 2018 -- Mar 2020}
+      {Intermediate}{82.8\% (percentage)}
+       \vspace{-5pt}
+
+  
+%-------------------------wrok experience -----------------
+\section{Work Experience}
+\begin{itemize}[leftmargin=0.10in, label={$\bullet$}]
+\vspace{-5pt} 
+    \small{
+        \item \textbf{Accenture Solutions Pvt Ltd} \hfill \textbf{Aug 2025 - Dec 2025}\\
+        \textit{Associate Software Engineer trainee} \hfill \textit{} \\
+           \resumeItemListStart
+     
+        \resumeItem{Completed \textbf{Primer, Delivery Fundamentals, and SAP BODS stream training}, covering \textbf{Software Fundamentals, Agile, SDLC, SAP ABAP, SAP BODS Designer, and data integration} }
+        \resumeItem{Completed \textbf{SAP BODS stream training}, learning \textbf{SAP ABAP basics, SAP BODS Designer, and data integration}; \textbf{cleared the competency exam}. }
+        \resumeItemListEnd
+        
+    }
+   
+\end{itemize}
+\vspace{-5pt}
+
+
+%-----------Technical  SKILLS-----------
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.10in, label={$\bullet$}]
+\vspace{-5pt} 
+    \small{
+        \item \textbf{Programming Languages}: C, C++, JavaScript, Python 
+        \item \textbf{Web Development}: HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, React.js 
+        \item \textbf{Technologies/Frameworks}: Vercel, Git, GitHub, OpenAI API, VS Code, SQL 
+    }
+\end{itemize}
+\vspace{-10pt}
+
+
+
+
+
+%----------Programming profile Section----------------------
+
+\section{Programming Profile}
+\begin{itemize}[leftmargin=0.10in, label={$\bullet$}]
+\vspace{-5pt} 
+    \small{
+        \item \textbf{Leetcode}: Highest Rating 1696, 675+ Problems solved \textbf{\href{https://leetcode.com/u/Arpit2453/}{\textcolor{blue}{Arpit2453}}}
+        \item \textbf{Codechef}: Highest Rating 1413, 180+ Problems solved \textbf{\href{https://www.codechef.com/users/arpit2453}{\textcolor{blue}{Arpit2453}}}
+        \item \textbf{Coding Ninja}: 125+ Problems solved \textbf{\href{https://www.naukri.com/code360/profile/Arpit2453}{\textcolor{blue}{Arpit2453}}}
+    }
+\end{itemize}
+\vspace{-10pt}
+
+
+
+
+
+%-----------PROJECTS-----------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{4pt}} % Adjusted spacing between items
+  }
+}
+\newenvironment{resumeItemListStart}{
+  \begin{itemize}
+  \setlength\itemsep{6pt} % Set spacing between items
+}{
+  \end{itemize}
+  \vspace{-5pt} % Adjust space after the list ends
+}
+
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+\vspace{-9pt}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+      {\textbf{StockVision AI } $|$ \emph{HTML, CSS, JavaScript, React, Vite, API Integration } \textbf{\href{https://github.com/aka3902/Stockvision-AI}{\textcolor{blue}{ Link}}}}{}
+       \vspace{-9pt}
+      \resumeItemListStart
+    
+        \resumeItem{Built a cutting-edge stock market analysis platform with real-time analytics, dynamic forecasts, and personalized recommendations. }
+        \resumeItem{Designed a lightning-fast and visually immersive UI using React and Vite for seamless user experience. }
+        \resumeItem{Integrated the Alpha Vantage API to track historical stock prices, enabling data-driven insights and analysis. }
+      \resumeItemListEnd
+      \vspace{-5pt}
+
+  \resumeProjectHeading
+      {\textbf{Password Generator} $|$ \emph{HTML, CSS, JavaScript, ReactJs} \textbf{\href{https://password-generator-gray-mu.vercel.app/}{\textcolor{blue}{ Link}}}}{}
+       \vspace{-9pt}
+      \resumeItemListStart
+        \resumeItem{Engineered a password generator using HTML, CSS, JavaScript, and React with adjustable password length from 6 to 100 characters.}
+        \resumeItem{Implemented responsive UI/UX with HTML and Tailwind CSS, achieving 100\% mobile device compatibility.}
+        
+        \resumeItem{Created real-time password strength indicators and options to include special characters, numbers, and letters.}
+        \resumeItem{Utilized React state management for smooth, dynamic user interaction and optimal performance across devices.}
+      \resumeItemListEnd
+      \vspace{-5pt}
+
+  \resumeProjectHeading
+      {\textbf{Sorting Visualizer} $|$ \emph{HTML, CSS, JavaScript, Web Audio API} \textbf{\href{https://aka3902.github.io/Sorting-Visualizer/}{\textcolor{blue}{ Link}}}}{}
+       \vspace{-9pt}
+      \resumeItemListStart
+        \resumeItem{Crafted a Sorting Visualizer website utilizing HTML, CSS, and JavaScript, featuring interactive sorting algorithm demonstrations for an engaging user experience.}
+        \resumeItem{Integrated the Web Audio API to provide synchronized audio feedback during sorting operations, enhancing user engagement with real-time auditory cues.}
+        \resumeItem{Exhibited proficiency in web development and audio manipulation, offering users a comprehensive interactive learning platform.}
+      \resumeItemListEnd
+      \vspace{-5pt}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+
+% Relavant Course work
+
+
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=6pt]
+                \item\small Data Structures
+                \item Algorithms Analysis
+                \item Operating System
+                \item Computer Network
+                \item Database Management System (DBMS)
+                \item Object Oriented Programming (OOPS)
+                
+              
+            \end{itemize}
+        \end{multicols}
+     \vspace{-5pt}
+
+
+% ----------Certifications and Interest
+
+
+%Certifications :
+%C++ Course by Udemy
+%Data Structure Course by Udemy
+%Certification in cybersecurity by PaloAlto Network
+%Certification in ReactJs by Great Learning
+%Interests: Programming ,Web Designing, Educating Progra
+
+\section{Certifications}
+\begin{itemize}[leftmargin=0.10in, label={$\bullet$}]
+\vspace{-5pt} 
+    \small{
+    \item C++ Course by Udemy    \textbf{\href{https://drive.google.com/file/d/10OxIozQSseXd10lldcUnVzY3WUncGxCK/view}{\textcolor{blue}{Link}}}
+    \item Data Structure Course by Udemy  \textbf{\href{https://drive.google.com/file/d/1Bxt625PzAhkBNRBBeq3LOwmphJXbYiIS/view}{\textcolor{blue}{Link}}}
+    \item Certification in Cybersecurity by Palo Alto Networks  \textbf{\href{https://drive.google.com/file/d/14Gh193OBtVOQ0bbdgbjFFlFUstsZ2qZ_/view}{\textcolor{blue}{Link}}} 
+    \item Certification in ReactJs by Great Learning  \textbf{\href{https://drive.google.com/file/d/1OVUTi8gZslWvlaWvKV9AbNYaVJucIdbc/view}{\textcolor{blue}{Link}}}
+    }
+\end{itemize}
+\vspace{-8pt}
+
+
+
+
+%-----------INVOLVEMENT---------------
+
+%\section{Achievements / Extracurricular}
+%\begin{itemize}[leftmargin=0.10in, label={$\bullet$}]
+%\vspace{-5pt} 
+   % \small{
+
+ %   }
+%\end{itemize}
+%\vspace{-17pt}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
